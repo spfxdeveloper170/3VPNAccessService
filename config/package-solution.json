@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "VPNAccessService",
+    "id": "4bb0241d-aa4d-4136-85ad-23f316c18f63",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "VPN Access Service description"
+      },
+      "longDescription": {
+        "default": "VPN Access Service description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "VPN Access Service Feature",
+        "description": "The feature that activates elements of the VPN Access Service solution.",
+        "id": "b8b2c46b-8bf8-4eb1-8140-7b5b180f2b1a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/vpn-access-service.sppkg"
+  }
+}

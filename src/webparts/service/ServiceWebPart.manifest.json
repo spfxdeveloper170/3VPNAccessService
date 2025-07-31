@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "cc5c295d-18e5-491f-9f88-4ddf37976a1f",
+  "alias": "VPNAccessServiceWebPart",
+  "componentType": "WebPart",
+ 
+  "version": "*",
+  "manifestVersion": 2,
+ 
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Advanced" },
+    "title": { "default": "VPN Access Service" },
+    "description": { "default": "VPN Access Service description" },
+    "officeFabricIconFontName": "Globe",
+    "properties": {
+      "description": "VPN Access Service",
+       "Apilink":"https://mcitstgapim.mcit.gov.qa/ivantitest/new",
+      "subscriptionId":"C278ABDF504E4CBB9678DFAA61B5FCE1",
+      "OcpApimKey":"ba47658772b3473cbd9eb045e856e9fc",
+      "Subject":"VPN Access Service Testing"
+    }
+  }]
+}
